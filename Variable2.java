@@ -1,8 +1,6 @@
-/ Another well adjusted printing program
-
 // This program has a variable.
 
-public class Variable
+public class Variable2
 {
    public static void main(String[] args)
    {
@@ -10,6 +8,6 @@ public class Variable
 
       value = 5;
       System.out.print("The value is ");
-      System.out.println(value);
+      System.out.println("value");
    }
 }
