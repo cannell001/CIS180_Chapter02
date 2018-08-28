@@ -1,12 +1,13 @@
-/* 
-   PROGRAM: Comment2.java
-   Written by Herbert Dorfmann
-   This program calculates company payroll
-   Last modification: 8/30/2005
-*/
+/**
+ * This class creates a program that calculates company payroll.
+ */
 
-public class Comment2
+public class Comment3
 {
+	/**
+	 * The main method is the program's starting point.
+	 */
+
    public static void main(String[] args)       
    {
       double payRate;      // Holds the hourly pay rate
