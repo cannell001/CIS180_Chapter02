@@ -1,10 +1,10 @@
 import java.util.Scanner;  // Needed for the Scanner class
 
-/** 
- *   This program has a problem reading input.
+/**
+ *   This program correctly read numeric and string input.
  */
  
-public class InputProblem
+public class CorrectedInputProblem
 {
    public static void main(String[] args)
    {
@@ -22,6 +22,9 @@ public class InputProblem
       // Get the user's income
       System.out.print("What is your annual income? ");
       income = keyboard.nextDouble();
+      
+      // Consume the remaining newline.
+      keyboard.nextLine();
       
       // Get the user's name.
       System.out.print("What is your name? ");
