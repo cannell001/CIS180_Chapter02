@@ -1,14 +1,15 @@
-// This program demonstrates the char data type.
+// This program demonstrates the close relationship between
+// characters and integers.
 
-public class Letters
+public class Letters2
 {
    public static void main(String[] args)
    {
       char letter;
 
-      letter = 'A';
+      letter = 65;
       System.out.println(letter);
-      letter = 'B';
+      letter = 66;
       System.out.println(letter);
    }
 }
